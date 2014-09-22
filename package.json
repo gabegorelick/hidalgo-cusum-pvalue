@@ -1,0 +1,29 @@
+{
+  "name": "hidalgo-cusum-pvalue",
+  "version": "0.0.1",
+  "description": "Hidalgo.js library to calculate CUSUM-based p-values from test statistics",
+  "main": "./index.js",
+  "license": "Apache-2.0",
+  "repository": "gabegorelick/hidalgo-cusum-pvalue",
+  "files": [
+    "*.js"
+  ],
+  "keywords": [
+    "hidalgo",
+    "cusum",
+    "disease",
+    "surveillance",
+    "algorithm",
+    "detector"
+  ],
+  "scripts": {
+    "test": "mocha test"
+  },
+  "dependencies": {
+    "binary-search": "^1.2.0"
+  },
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "mocha": "^1.21.4"
+  }
+}
